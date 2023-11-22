@@ -9,7 +9,7 @@ echo;
 
 
 ::
-:: explaining whats happening in this script
+:: explaining whats happening in this script in the terminal
 ::
 echo script works as follow:
 echo;
@@ -44,7 +44,7 @@ echo done
 echo;
 
 ::
-:: compile systemverilog file
+:: compile systemverilog files
 ::
 echo compiling all systemverilog files
 vlog memory_pkg.sv top.sv intf.sv memory_16x32.sv +cover
